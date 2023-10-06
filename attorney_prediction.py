@@ -33,7 +33,7 @@ df = user_input_features()
 st.subheader("User Input Parameters")
 st.write(df)
 
-claimants = pd.read_csv(r"C:\Users\Gujar\Desktop\Projects\Data Science\attorney predictions\claimants.csv")
+claimants = pd.read_csv(r"claimants.csv")
 
 claimants.drop(['CASENUM'], inplace = True, axis = 1)
 
