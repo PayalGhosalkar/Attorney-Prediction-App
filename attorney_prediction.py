@@ -8,6 +8,7 @@ Created on Mon Jun  5 13:48:54 2023
 import pandas as pd
 import streamlit as st
 from sklearn.linear_model import LogisticRegression
+import sklearn
 
 st.title(" Claimant will hire attorney?")
 
